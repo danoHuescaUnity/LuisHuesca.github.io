@@ -57,3 +57,20 @@ header .img-profile,
   display: block;
   margin: 0 auto 24px; /* centrada + espacio abajo */
 }
+
+/* Títulos de sección */
+#portfolio h2,
+#contact h2 {
+  color: #f9fafb;   /* blanco/gris muy claro */
+}
+
+/* La línea con la estrellita debajo del título */
+#portfolio .star-primary,
+#contact .star-primary {
+  border-color: #f9fafb;
+}
+
+#portfolio .star-primary:after,
+#contact .star-primary:after {
+  background-color: #f9fafb;
+}
