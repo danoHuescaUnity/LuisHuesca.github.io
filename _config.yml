@@ -4,7 +4,7 @@ url: "https://danohuescaunity.github.io"
 baseurl: ""
 
 keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
+skills: "Senior Unity Developer - Game Developer"
 meta_author: Luis Huesca
 
 # Google webmaster tools
@@ -49,14 +49,6 @@ social:
     url: http://bitbucket.org/jekyll
   - title: github
     url: http://github.com/jekyll
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
-
-# Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
