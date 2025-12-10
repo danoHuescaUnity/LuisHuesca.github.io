@@ -74,3 +74,23 @@ header .img-profile,
 #contact .star-primary:after {
   background-color: #f9fafb;
 }
+/* Fondo de la sección ABOUT */
+#about.success {
+  background-color: #0f172a;   /* nuevo color de fondo */
+}
+
+/* Color de texto dentro de ABOUT (por si el fondo es oscuro) */
+#about.success,
+#about.success p,
+#about.success h2 {
+  color: #f9fafb;              /* texto muy claro */
+}
+
+/* Línea y estrella bajo el título en ABOUT */
+#about .star-light {
+  border-color: #f9fafb;
+}
+
+#about .star-light:after {
+  background-color: #020617;
+}
