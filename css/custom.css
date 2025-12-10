@@ -1,70 +1,71 @@
-/* Fondo general del sitio */
+/* =========================
+   FONDO GENERAL
+   ========================= */
+
 body {
-  background-color: #020617; /* casi negro azulado */
+  background-color: #020617;
+  color: #e5e7eb;
 }
 
-/* Header donde está tu foto y el texto GAME DEVELOPER */
+/* Header (hero con tu foto y título) */
 header {
-  background-color: #111827; /* gris muy oscuro */
+  background-color: #020617;
+  color: #f9fafb;
 }
 
-/* Navbar superior */
+/* =========================
+   NAVBAR
+   ========================= */
+
 .navbar-default {
   background-color: #020617;
   border-color: transparent;
 }
 
 .navbar-default .navbar-brand {
-  color: #ffffff;
+  color: #f9fafb;
   font-weight: 700;
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #e5e7eb; /* gris claro */
+  color: #e5e7eb;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
-  color: #34d399;          /* verde acento */
+  color: #22c55e;
   background-color: transparent;
 }
 
-/* Botones principales en verde */
-.btn-success,
-.btn-primary,
-.btn-default.btn-xl {
-  background-color: #1abc9c;
-  border-color: #1abc9c;
-}
-
-.btn-success:hover,
-.btn-primary:hover,
-.btn-default.btn-xl:hover {
-  background-color: #159f82;
-  border-color: #159f82;
-}
+/* =========================
+   FOTO DE PERFIL
+   ========================= */
 
 header img,
 header .img-responsive,
 header .img-profile,
 .hero-avatar {
-  width: 220px;        /* ajusta el tamaño a gusto: 180, 200, etc. */
+  width: 220px;
   height: 220px;
-  border-radius: 50%;  /* redonda */
-  object-fit: cover;   /* recorta sin deformar */
+  border-radius: 50%;
+  object-fit: cover;
   display: block;
-  margin: 0 auto 24px; /* centrada + espacio abajo */
+  margin: 0 auto 24px;
 }
 
-/* Títulos de sección */
+/* =========================
+   TÍTULOS SECCIÓN + ESTRELLITAS
+   ========================= */
+
 #portfolio h2,
+#about h2,
 #contact h2 {
-  color: #f9fafb;   /* blanco/gris muy claro */
+  color: #f9fafb;
 }
 
-/* La línea con la estrellita debajo del título */
+/* Portfolio & Contact – línea con estrella */
 #portfolio .star-primary,
 #contact .star-primary {
   border-color: #f9fafb;
@@ -74,41 +75,95 @@ header .img-profile,
 #contact .star-primary:after {
   background-color: #f9fafb;
 }
-/* Fondo de la sección ABOUT */
-#about.success {
-  background-color: #0f172a;   /* nuevo color de fondo */
-}
 
-/* Color de texto dentro de ABOUT (por si el fondo es oscuro) */
-#about.success,
-#about.success p,
-#about.success h2 {
-  color: #f9fafb;              /* texto muy claro */
-}
-
-/* Línea y estrella bajo el título en ABOUT */
+/* About – línea con estrella clara */
 #about .star-light {
   border-color: #f9fafb;
 }
 
 #about .star-light:after {
-  background-color: #020617;
-}
-/* Campos del formulario en Contact Me */
-#contact .form-control {
-  color: #f9fafb;          /* color del texto que escribes */
-  background-color: #020617; /* si quieres que el fondo del campo sea oscuro */
-  border-color: #4b5563;   /* borde gris, cámbialo a gusto */
+  background-color: #f9fafb;
 }
 
-/* Cuando el campo está enfocado (clic encima) */
+/* =========================
+   SECCIONES
+   ========================= */
+
+/* Portfolio */
+#portfolio {
+  background-color: #020617;
+  color: #e5e7eb;
+}
+
+/* About */
+#about.success {
+  background-color: #0f172a;
+  color: #f9fafb;
+}
+
+/* Contact */
+#contact {
+  background-color: #020617;
+  color: #e5e7eb;
+}
+
+/* Footer */
+footer .footer-above {
+  background-color: #020617;
+  color: #e5e7eb;
+}
+
+footer .footer-below {
+  background-color: #020617;
+  color: #9ca3af;
+}
+
+/* =========================
+   FORMULARIO CONTACT
+   ========================= */
+
+#contact .form-control {
+  color: #f9fafb;
+  background-color: #020617;
+  border-color: #374151;
+}
+
 #contact .form-control:focus {
-  border-color: #34d399;   /* verde acento al enfocar */
+  border-color: #22c55e;
   box-shadow: none;
 }
 
-/* Color del placeholder (Name, Email, Message...) */
 #contact .form-control::placeholder {
-  color: #9ca3af;          /* gris claro para el placeholder */
+  color: #9ca3af;
   opacity: 1;
+}
+
+/* =========================
+   BOTONES & LINKS
+   ========================= */
+
+.btn-success,
+.btn-primary,
+.btn-default.btn-xl {
+  background-color: #22c55e;
+  border-color: #22c55e;
+  color: #020617;
+  font-weight: 600;
+}
+
+.btn-success:hover,
+.btn-primary:hover,
+.btn-default.btn-xl:hover {
+  background-color: #16a34a;
+  border-color: #16a34a;
+  color: #020617;
+}
+
+a {
+  color: #22c55e;
+}
+
+a:hover,
+a:focus {
+  color: #16a34a;
 }
