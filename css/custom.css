@@ -173,3 +173,16 @@ a:hover,
 a:focus {
   color: #16a34a;
 }
+/* =========================
+   CONTACT: animación de focus
+   ========================= */
+
+/* Borde inferior del field cuando está en foco / con valor */
+#contact .floating-label-form-group-with-focus {
+  border-color: #22c55e;      /* mismo color que el botón Send */
+}
+
+/* Color del label (Name, Email, Message) cuando está activo */
+#contact .floating-label-form-group-with-focus label {
+  color: #22c55e;
+}
