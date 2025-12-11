@@ -186,3 +186,14 @@ a:focus {
 #contact .floating-label-form-group-with-focus label {
   color: #22c55e;
 }
+/* Dejar la línea, quitar solo la estrella */
+hr.star-light,
+hr.star-primary {
+  border-top: 3px solid #f9fafb;  /* o el color/grosor que prefieras */
+}
+
+/* Ocultar solo la pseudo-estrellita */
+hr.star-light:after,
+hr.star-primary:after {
+  display: none;
+}
