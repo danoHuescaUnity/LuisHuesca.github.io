@@ -198,3 +198,8 @@ a:focus {
   object-fit: cover;
   display: block;
 }
+/* para los videos muestran todo el frame y con barras */
+video.portfolio-thumb-media{
+   object-fit: contain;
+   background-color: #000;
+}
