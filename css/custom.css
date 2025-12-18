@@ -203,3 +203,9 @@ hr.star-primary:after {
    border-radius: 8px;
    outline: none;
 }
+/* Videos en la grid de Portfolio */
+.portfolio-thumb-video {
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+}
