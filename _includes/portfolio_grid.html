@@ -19,17 +19,26 @@
           </div>
 
           <!-- Wrapper 16:9 para imagen o video -->
-          <div class="portfolio-thumb-wrapper">
-            {% if post.video %}
-              <video class="portfolio-thumb-media" muted loop playsinline autoplay>
-                <source src="{{ "/video/" | append: post.video | prepend: site.baseurl }}" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
+         <div class="portfolio-thumb-wrapper">
+          {% if post.video %}
+            {% if post.video_zoom_scale %}
+              {% assign zoom_class = " portfolio-thumb-media-zoom" %}
+              {% assign zoom_style = "transform: scale(" | append: post.video_zoom_scale | append: ");" %}
             {% else %}
-              <img src="img/portfolio/{{ post.img }}" class="portfolio-thumb-media" alt="{{ post.alt }}">
+              {% assign zoom_class = "" %}
+              {% assign zoom_style = "" %}
             {% endif %}
-          </div>
-
+        
+            <video class="portfolio-thumb-media{{ zoom_class }}"
+                   style="{{ zoom_style }}"
+                   muted loop playsinline autoplay>
+              <source src="{{ "/video/" | append: post.video | prepend: site.baseurl }}" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          {% else %}
+            <img src="img/portfolio/{{ post.img }}" class="portfolio-thumb-media" alt="{{ post.alt }}">
+          {% endif %}
+        </div>
         </a>
       </div>
       {% endfor %}
