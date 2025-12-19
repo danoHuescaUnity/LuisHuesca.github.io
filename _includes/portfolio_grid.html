@@ -20,7 +20,12 @@
 
           <!-- Wrapper 16:9 para imagen o video -->
          <div class="portfolio-thumb-wrapper">
-          {% if post.video %}
+          {% if post.video or post.video_thumb %}
+            {% assign thumb_video = post.video %}
+            {% if post.video_thumb %}
+              {% assign thumb_video = post.video_thumb %}
+            {% endif %}
+  
             {% if post.video_zoom_scale %}
               {% assign zoom_class = " portfolio-thumb-media-zoom" %}
               {% assign zoom_style = "transform: scale(" | append: post.video_zoom_scale | append: ");" %}
@@ -32,7 +37,7 @@
             <video class="portfolio-thumb-media{{ zoom_class }}"
                    style="{{ zoom_style }}"
                    muted loop playsinline autoplay>
-              <source src="{{ "/video/" | append: post.video | prepend: site.baseurl }}" type="video/mp4">
+             <source src="{{ "/video/" | append: thumb_video | prepend: site.baseurl }}" type="video/mp4">
               Your browser does not support the video tag.
             </video>
           {% else %}
