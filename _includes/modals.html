@@ -13,9 +13,27 @@
             <h2>{{ post.title }}</h2>
             <hr class="star-primary">
 
-            {% if post.video %}
+            {%- comment -%}
+              Elegir qué video usar en el modal, en este orden:
+              1) video_modal
+              2) video
+              3) video_thumb
+              Si no hay ninguno, mostrar imagen.
+            {%- endcomment -%}
+
+            {% assign modal_video = "" %}
+
+            {% if post.video_modal %}
+              {% assign modal_video = post.video_modal %}
+            {% elsif post.video %}
+              {% assign modal_video = post.video %}
+            {% elsif post.video_thumb %}
+              {% assign modal_video = post.video_thumb %}
+            {% endif %}
+
+            {% if modal_video != "" %}
               <video class="img-responsive img-centered portfolio-video" controls>
-                <source src="{{ "/video/" | append: post.video | prepend: site.baseurl }}" type="video/mp4">
+                <source src="{{ "/video/" | append: modal_video | prepend: site.baseurl }}" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
             {% else %}
