@@ -7,13 +7,13 @@ alt: image-alt
 project-date: April 2014
 client: Metamoki
 role: Senior Unity Game Developer
-plataforms: iOS,Android
-engine: Unity(C#)
+platforms: iOS,Android
+engine: "Unity(C#)"
 category: Game Development
 video_thumb: "AC_ShortCut.mp4"
 video_modal: "AC_LongCut.mp4"
 video_zoom_scale: 1.3
-description: As a Senior Unity Game Developer, I owned client-side development for core gameplay and live-ops features: from implementing restaurant systems and UI flows to optimizing performance and supporting designers with tools and iteration."
+description: "As a Senior Unity Game Developer, I owned client-side development for core gameplay and live-ops features: from implementing restaurant systems and UI flows to optimizing performance and supporting designers with tools and iteration."
 highlights:
   - Implemented core kitchen and order-management systems, including customers, queues, recipes and upgrades.
   - Built and iterated on UI flows for offers, events, rewards and progression to support live-ops and monetization.
