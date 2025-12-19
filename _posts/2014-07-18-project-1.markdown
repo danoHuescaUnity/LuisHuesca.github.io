@@ -13,10 +13,11 @@ category: Game Development
 video_thumb: "AC_ShortCut.mp4"
 video_modal: "AC_LongCut.mp4"
 video_zoom_scale: 1.3
-description: Embark on an exciting global cooking adventure in
-Adventure Chef, where you'll open restaurants in famous cities and serve delicious local dishes to eager customers. This idle/strategy game is your chance to become a world-renowned chef and build your very own culinary empire!
+description: As a Senior Unity Game Developer, I owned client-side development for core gameplay and live-ops features: from implementing restaurant systems and UI flows to optimizing performance and supporting designers with tools and iteration."
 highlights:
-  - Implemented and iterated on core kitchen and order-management gameplay systems.
-  - Integrated new live-ops features (events, offers, quests) to improve retention and monetization.
-  - Profiled and optimized performance to keep stable FPS on mid and low-end Android devices.
+  - Implemented core kitchen and order-management systems, including customers, queues, recipes and upgrades.
+  - Built and iterated on UI flows for offers, events, rewards and progression to support live-ops and monetization.
+  - Worked closely with designers and artists to prototype new features, tune balance and polish gameplay feel.
+  - Profiled and optimized performance and memory to keep stable FPS across a wide range of iOS and Android devices.
+  - Created small internal tools and debug views in Unity to help the team test content faster and more safely.
 ---
