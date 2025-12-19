@@ -207,3 +207,16 @@ video.portfolio-thumb-media-zoom{
    object-fit: contain;
    transform-origin: center;
 }
+/* ====== MODAL PORTFOLIO: FONDO OSCURO ====== */
+
+.portfolio-modal .modal-content {
+  background-color: #020617;   /* mismo fondo dark que el sitio */
+  color: #e5e7eb;              /* texto claro */
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.9);
+}
+
+.portfolio-modal .modal-body h2,
+.portfolio-modal .modal-body p,
+.portfolio-modal .modal-body .item-details li {
+  color: #e5e7eb;
+}
