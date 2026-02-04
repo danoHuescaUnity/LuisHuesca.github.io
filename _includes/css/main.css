@@ -516,3 +516,35 @@ footer .footer-below {
 .portfolio-modal .close-modal .lr .rl {
   background-color: #ffffff !important;
 }
+
+/* ===== Modal close "X" - stronger + visible ===== */
+.portfolio-modal .close-modal{
+  top: 18px;
+  right: 18px;
+  width: 48px;
+  height: 48px;
+  opacity: 1 !important;
+  border-radius: 999px;
+  background: rgba(0,0,0,0.45);
+  z-index: 1060;
+}
+
+.portfolio-modal .close-modal:hover{
+  opacity: 1 !important;
+  background: rgba(0,0,0,0.60);
+}
+
+/* center the cross */
+.portfolio-modal .close-modal .lr{
+  width: 4px !important;            /* thickness */
+  height: 28px !important;
+  margin-left: 22px !important;     /* centers within 48px */
+  margin-top: 10px !important;
+  background-color: #fff !important;
+}
+
+.portfolio-modal .close-modal .lr .rl{
+  width: 4px !important;            /* thickness */
+  height: 28px !important;
+  background-color: #fff !important;
+}
