@@ -482,3 +482,37 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+/* Make the modal "X" visible on dark backgrounds */
+.portfolio-modal .close-modal {
+  opacity: 1 !important;
+}
+
+.portfolio-modal .close-modal:hover {
+  opacity: 1 !important; /* evita que desaparezca al hover */
+}
+
+.portfolio-modal .close-modal .lr,
+.portfolio-modal .close-modal .lr .rl {
+  background-color: #ffffff !important;  /* blanco */
+}
+
+.portfolio-modal .close-modal {
+  width: 48px;
+  height: 48px;
+  top: 18px;
+  right: 18px;
+  border-radius: 999px;
+  background: rgba(0,0,0,0.35);
+  backdrop-filter: blur(4px);
+}
+
+.portfolio-modal .close-modal .lr {
+  height: 28px;
+  margin-left: 23px;
+}
+
+.portfolio-modal .close-modal .lr,
+.portfolio-modal .close-modal .lr .rl {
+  background-color: #ffffff !important;
+}
