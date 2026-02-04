@@ -15,7 +15,7 @@ video_thumb: "Bingo_ShortCut.mp4"
 video_modal: "Bingo_LongCut.mp4"
 description: "As a Unity Developer, I owned the end-to-end delivery of a Bingo mini-game inside Slotsburg: from core gameplay implementation and game data handling (balls, state, progression/rewards) to defining and polishing the UI animations and VFX that make the moment-to-moment experience feel satisfying. I worked across gameplay, presentation, and integration to ship a cohesive feature that fits seamlessly within the main game loop."
 highlights:
-  - "Implemented the full Bingo gameplay loop(earbubg bakksm drawing/using balls, matching numbers, and completing Bingo states)"
+  - "Implemented the full Bingo gameplay loop (earning balls, drawing/using balls, matching numbers, and completing Bingo states)."
   - "Managed and integrated game data/state required to play reliably (session flow, ball tracking, win conditions, and rewards hooks)."
   - "Designed and implemented UI animation beats to improve clarity, feedback, and perceived polish."
   - "Created and integrated VFX to reinforce key moments (ball acquisition, matches, and Bingo completion)."
