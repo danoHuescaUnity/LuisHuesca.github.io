@@ -1,0 +1,23 @@
+---
+layout: default
+modal-id: 4
+title: "TrueDown"
+date: 2014-07-17
+alt: "TrueDown"
+project-date: 2022–2023
+client: Eon Reality
+role: "Unity Developer"
+platforms: "Oculus,SteamVR"
+engine: "Unity (C#)"
+category: "Live Ops / UI / A/B Testing"
+img: "cake.png"
+video_thumb: "TrueDown_ShortCut.mp4"
+video_modal: "TrueDown_LongCut.mp4"
+description: "As a Unity Developer (and acting as a lightweight project lead/PM), I helped bring TrueDown to life: a VR horror narrative set in an abandoned building where a ritual went wrong. I translated creative intent into shippable VR gameplay by defining what was feasible, prioritizing scope, and implementing the core interactive moments—combining VR interactions, in-world animations, and VFX to deliver tension, pacing, and immersion across headsets."
+highlights:
+  - "Implemented VR interactions (object handling, in-world triggers, and player-driven moments) to suppor the narrative flow."
+  - "Built and integrated animations to reinforce story beats and environmental storytelling"
+  - "Created and tuned VFX for horror atmosphere and key “ritual” moments, focusing on presence and timing."
+  - "Took ownership of technical decision-making: scoping features, cutting/adjusting ideas based on feasibility, and aligning execution with creative goals."
+  - "Supported iteration with creatives by rapidly prototyping interactions and polishing the experience for headset comfort and immersion."
+---
