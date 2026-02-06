@@ -43,6 +43,8 @@ footer:
 social:
   - title: github
     url: https://github.com/danoHuescaUnity
+  - title: linkedin
+    url: https://www.linkedin.com/in/danielhuesca/
 
 # Build settings
 markdown: kramdown
