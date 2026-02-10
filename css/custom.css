@@ -230,6 +230,12 @@ video.portfolio-thumb-media-zoom{
 .portfolio-modal .modal-body .item-details li {
   color: #e5e7eb;
 }
+
+.portfolio-modal .modal-body p,
+.portfolio-modal .modal-body .item-details li {
+  font-size: clamp(1rem, 0.96rem + 0.25vw, 1.12rem);
+  line-height: 1.6;
+}
 /* ====== MODAL PORTFOLIO: BOTÓN X MÁS PEQUEÑO ====== */
 
 .portfolio-modal .close-modal {
@@ -330,8 +336,9 @@ video.portfolio-thumb-media-zoom{
 #portfolio .portfolio-card-highlights li {
   position: relative;
   padding-left: 20px;
-  font-size: 0.9rem;
-  margin-bottom: 4px;
+  font-size: clamp(0.98rem, 0.94rem + 0.25vw, 1.08rem);
+  line-height: 1.5;
+  margin-bottom: 6px;
 }
 
 #portfolio .portfolio-card-highlights li::before {
@@ -490,10 +497,10 @@ video.portfolio-thumb-media-zoom{
 #skills .skills-bullets li {
   position: relative;
   padding-left: 18px;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
   color: #e5e7eb;
-  font-size: 0.92rem;
-  line-height: 1.35;
+  font-size: clamp(0.98rem, 0.94rem + 0.25vw, 1.08rem);
+  line-height: 1.6;
 }
 
 #skills .skills-bullets li::before {
