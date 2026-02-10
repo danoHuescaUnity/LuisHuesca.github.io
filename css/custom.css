@@ -237,3 +237,142 @@ video.portfolio-thumb-media-zoom{
 .project-highlights li {
   margin-bottom: 6px;
 }
+
+/* =========================
+   PORTFOLIO GRID CARDS
+   ========================= */
+
+#portfolio .portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 32px;
+}
+
+@media (min-width: 768px) {
+  #portfolio .portfolio-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 992px) {
+  #portfolio .portfolio-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* Make items behave as full-height cards inside the grid */
+#portfolio .portfolio-item {
+  margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+  display: block;
+  height: 100%;
+  max-width: none;
+  margin: 0;
+}
+
+/* Card container */
+#portfolio .portfolio-card {
+  background: radial-gradient(circle at top, #111827, #020617 60%);
+  border-radius: 16px;
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Keep existing thumb wrapper behavior, but tie it to the card */
+#portfolio .portfolio-card .portfolio-thumb-wrapper {
+  border-radius: 0;
+}
+
+/* Card body */
+#portfolio .portfolio-card-body {
+  padding: 18px 22px 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+#portfolio .portfolio-card-title {
+  font-size: 1.3rem;
+  margin-bottom: 6px;
+  color: #f9fafb;
+}
+
+#portfolio .portfolio-card-meta {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #9ca3af;
+  margin-bottom: 10px;
+}
+
+/* Highlights list with check-style bullets */
+#portfolio .portfolio-card-highlights {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 12px;
+}
+
+#portfolio .portfolio-card-highlights li {
+  position: relative;
+  padding-left: 20px;
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+}
+
+#portfolio .portfolio-card-highlights li::before {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 0.7rem;
+  color: #22c55e;
+}
+
+/* Tags row at the bottom of the card */
+#portfolio .portfolio-card-tags {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+#portfolio .portfolio-tag {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.9);
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #e5e7eb;
+}
+
+/* "View Details" pill button */
+#portfolio .portfolio-card-footer {
+  margin-top: 14px;
+}
+
+#portfolio .portfolio-card-cta {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  color: #020617;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+#portfolio .portfolio-card-cta:hover {
+  background: linear-gradient(135deg, #16a34a, #15803d);
+  color: #020617;
+}
