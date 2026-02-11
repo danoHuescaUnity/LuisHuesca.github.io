@@ -314,13 +314,13 @@ video.portfolio-thumb-media-zoom{
 }
 
 #portfolio .portfolio-card-title {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin-bottom: 6px;
   color: #f9fafb;
 }
 
 #portfolio .portfolio-card-meta {
-  font-size: 1.0rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: #9ca3af;
@@ -337,10 +337,10 @@ video.portfolio-thumb-media-zoom{
 #portfolio .portfolio-card-highlights li {
   position: relative;
   padding-left: 20px;
-  /* base was 0.9rem → +20% ≈ 1.08rem */
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   line-height: 1.6;
   margin-bottom: 6px;
+  color: #E5E7EB;
 }
 
 #portfolio .portfolio-card-highlights li::before {
@@ -350,7 +350,7 @@ video.portfolio-thumb-media-zoom{
   position: absolute;
   left: 0;
   top: 2px;
-  font-size: 0.7rem;
+  font-size: 1.2rem;
   color: #22c55e;
 }
 
@@ -368,7 +368,7 @@ video.portfolio-thumb-media-zoom{
   border-radius: 999px;
   background: rgba(15, 23, 42, 0.9);
   border: 1px solid rgba(148, 163, 184, 0.35);
-  font-size: 0.9rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: #e5e7eb;
@@ -385,7 +385,7 @@ video.portfolio-thumb-media-zoom{
   border-radius: 999px;
   background: linear-gradient(135deg, #22c55e, #16a34a);
   color: #020617;
-  font-size: 1.0rem;
+  font-size: 1.4rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -484,7 +484,7 @@ video.portfolio-thumb-media-zoom{
 }
 
 #skills .skills-card-title {
-  font-size: 1.05rem;
+  font-size: 1.6rem;
   margin: 0;
   color: #f9fafb;
   text-transform: none; /* keep title case like the reference */
@@ -501,8 +501,7 @@ video.portfolio-thumb-media-zoom{
   padding-left: 18px;
   margin-bottom: 8px;
   color: #e5e7eb;
-  /* base was 0.92rem → +20% ≈ 1.10rem */
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   line-height: 1.6;
 }
 
@@ -513,7 +512,7 @@ video.portfolio-thumb-media-zoom{
   position: absolute;
   left: 0;
   top: 1px;
-  font-size: 0.7rem;
+  font-size: 1.2rem;
   color: #22c55e;
   opacity: 0.95;
 }
@@ -532,8 +531,7 @@ video.portfolio-thumb-media-zoom{
   background: rgba(30, 58, 138, 0.20);
   border: 1px solid rgba(59, 130, 246, 0.22);
   color: #e5e7eb;
-  /* base was 0.75rem → +20% = 0.9rem */
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
